@@ -2,9 +2,10 @@ pipeline {
     agent any
     
     environment {
-        PYTHON = 'python'
-        PIP = 'pip'
+    PYTHON = 'C:\\Python39\\python.exe'
+    PIP = 'C:\\Python39\\Scripts\\pip.exe'
     }
+
     
     stages {
         stage('Install Dependencies') {
