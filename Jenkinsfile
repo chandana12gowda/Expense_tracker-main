@@ -2,8 +2,8 @@ pipeline {
     agent any
     
     environment {
-    PYTHON = 'C:\\Python39\\python.exe'
-    PIP = 'C:\\Python39\\Scripts\\pip.exe'
+        PYTHON = 'python'
+        PIP = 'pip'
     }
 
     
